@@ -9,7 +9,7 @@ REM Add Tools directory to path
 PATH=%PATH%;%~dp0..\..\Tools\bin-w32;
 
 REM FIXME: need a mirror that points to the latest tor version!
-curl -k --output "../res/Tor.zip" --url "https://dist.torproject.org/torbrowser/4.5.3/tor-win32-0.2.6.9.zip"
+curl -k --output "../res/Tor.zip" --url "https://www.torproject.org/dist/torbrowser/5.5.5/tor-win32-0.2.7.6.zip"
 
 7za x -y ../res/Tor.zip -o../res/
 
